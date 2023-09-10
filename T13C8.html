@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 8_CSS</title>
+    <style>
+        .one{
+            background-color: rgb(185, 23, 85);
+            width: 600px;
+            height: 350px;
+        }
+        .two{
+            background-color: rgb(118, 8, 50);
+            width: 500px;
+            height: 330px;
+            position: relative;
+            top: 10px;
+            left: 45px;
+        }
+        .button{
+            height: 20px;
+            width: 320px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+            position: relative;
+            top: -30px;
+            left: 70px;
+        }
+        table{
+            padding: 20px 60px 20px 60px;
+        }
+        label{
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="one">
+        <div class="two">
+            <form>
+                <table cellspacing="6px">
+                    <tr>
+                        <td><label for="fn">Name:</label></td>
+                        <td><input style="width: 200px;" type="text" name="fn" placeholder="your name"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="mail">Email:</label></td>
+                        <td><input style="width: 200px;" type="email" name="mail" placeholder="your email"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="pwd">Password:</label></td>
+                        <td><input style="width: 200px;" type="password" name="pwd"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="phoneno">Phone Number:</label></td>
+                        <td><input style="width: 200px;" type="number" name="phoneno"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="gen">Gender:</label></td>
+                        <td><label>Male:</label><input type="radio" name="gen">
+                        <label>Female:</label><input type="radio" name="gen">
+                        <label>Others:</label><input type="radio" name="gen"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="lang">Language:</label></td>
+                        <td>
+                        <select>
+                            <option>Select language</option>
+                            <option>Hindi</option>
+                            <option>English</option>
+                            <option>Telugu</option>
+                            <option>Kannada</option>
+                        </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="zip">Zip Code:</label></td>
+                        <td><input style="width: 200px;" type="number" name="zip"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="add">About</label></td>
+                        <td><textarea style="width: 200px;" rows="2" placeholder="Write about yourself..."></textarea></td>
+                    </tr>
+                </table>
+                <br/>
+                    <button class="button" type="submit">Register</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

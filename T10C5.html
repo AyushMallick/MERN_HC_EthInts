@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 5_CSS</title>
+</head>
+<style>
+    #sideNav a{
+        position: absolute;
+        font-size: 20px;
+        left: -82px;
+        width: 100px;
+        padding: 15px;
+        transition: 0.3s;
+        text-decoration: none;
+        border-radius: 0 5px 5px 0;
+        color: white;
+    }
+
+    #sideNav a:hover{
+        left: 0;
+    }
+
+    #Netflix{
+        top: 20px;
+        background-color:#04aa6d;
+    }
+
+    #Amazon{
+        top: 80px;
+        background-color:dodgerblue;
+    }
+
+    #Hotstar{
+        top: 140px;
+        background-color: red;
+    }
+
+    #HBO{
+        top:200px;
+        background-color:dimgray;
+    }
+
+</style>
+<body>
+    <div id = "sideNav" class = "hoverableSidenav">
+        <a href = "#" id = "Netflix">Netflix</a>
+        <a href = "#" id = "Amazon">Amazon</a>
+        <a href = "#" id = "Hotstar">Hotstar</a>
+        <a href = "#" id = "HBO">HBO</a>
+    </div>
+
+    <div style = "margin-left: 80px;">
+        <h2>Hoverable Sidenav Buttons</h2>
+        <p>Hover over the buttons in the left side navigation to open them.</p>
+    </div>
+</body>
+</html>

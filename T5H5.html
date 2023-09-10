@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 5 HTML</title>
+</head>
+<body align = "center">
+    <form action = "https://ethnus.com" method = "post">
+        <div>
+            <h1 style = "color:blue;">Registration Form</h1>
+        </div>
+        <table border = "2px" cellpadding="3px" cellspacing = "0px" align="center">
+        <tr>
+            <th>
+            <label for = "fn">First Name</label>
+            </th>
+            <td>
+            <input type = "text" name = "fn" style = "width: 280px;" required/> 
+            </td>
+        </tr>
+
+        <tr>
+            <th>
+            <label for = "ln">Last Name</label>
+            </th>
+            <td>
+            <input type = "text" name = "ln" style = "width: 280px;"/> 
+            </td>
+        </tr>
+        
+        <tr>
+           <th>
+            <label for = "mail">Email</label>
+            </th>
+            <td>
+            <input type = "text" name = "mail" style = "width: 280px;" required/> 
+            </td>
+        </tr>
+        
+        <tr>
+            <th>
+            <label for = "pwd">Password</label>
+            </th>
+            <td>
+            <input type = "password" name = "pwd" style = "width: 280px;" required/> 
+            </td>
+        </tr>
+        
+        <tr>
+            <th>
+            <label for = "re-pwd">Re-Enter Password</label>
+            </th>
+            <td>
+            <input type = "password" name = "pwd" style = "width: 280px;" required/> 
+            </td>
+        </tr>
+        
+        <tr>
+            <th rowspan="2">
+            <label for = "gender">Gender:</label>
+            </th>
+
+            <td>
+            <input type = "radio" name = "gender" required/>Male
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+            <input type = "radio" name = "gender" required/>Female
+            </td>
+        </tr>
+        
+        <tr>
+            <th>
+            <label for = "age">Age:</label>
+            </th>
+            
+            <td>
+            <input type = "number" name = "age" style = "width: 280px;" required/> 
+            </td>
+        </tr>
+        
+        <tr>
+            <th>
+            <label for = "phoneno.">Phone Number</label>
+            </th>
+            <td>
+            <input type = "number" name = "phoneno." style = "width: 280px;" required/> 
+            </td>
+        </tr>
+        
+        <tr>
+            <th>
+            <label for = "address">Address</label>
+            </th>
+            <td>
+            <textarea rows = "5" id = "address" style = "width: 280px;" required></textarea>
+            </td>
+        </tr>
+        
+        <tr>
+            <th>
+            <label for = "state">State</label>
+            </th>
+            <td>
+            <input type = "text" name = "state" style = "width: 280px;" required/> 
+        </td>
+        </tr>
+        
+        <tr>
+            <th>
+            <label for = "country">Country</label>
+            </th>
+            <td>
+            <select name = "Country" id = "country" style = "width: 290px;">
+                <option>Choose your country</option>
+                <option>India</option>
+                <option>U.S.A</option>
+                <option>Australia</option>
+                <option>New Zealand</option>
+                <option>France</option>
+                <option>England</option>
+            </select>
+            </td>
+        </tr>
+        
+        <tr>
+            <th>
+            <label for = "languages">Languages Known</label>
+            </th>
+            <td>
+            <input type = "checkbox"/>English
+            <input type = "checkbox"/>Kannada
+            <input type = "checkbox"/>Hindi
+            <input type = "checkbox"/>Telugu
+            </td>
+        </tr>
+        
+        <tr>
+            <td colspan = "2" align = "left" >
+            <input type = "checkbox" required/>Hereby I declare all the given details are true.
+            </td>
+        </tr>
+        
+        <tr>
+            <td colspan = "2" align = "right">
+            Login to <a href = "https://ethnus.com">Ethnus</a>Website 
+            </td>
+        </tr>
+    </table>
+    
+    <br/>
+        <input type = "submit" value = "Register"/>
+
+    </form>
+</body>
+</html>

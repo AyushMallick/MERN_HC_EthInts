@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 4 HTML</title>
+    <style>
+        div{
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        label{
+         display: inline-block; 
+         width : 200px;
+        }
+     </style>
+</head>
+<body>
+    <form action = "/form/submit" method = "post">
+        <div>
+        <label for = "fn">First Name</label>
+        <input type = "text" name = "fn" value = "Vincent Maverick Durano" style = "width: 160px;"/>
+        </div>
+
+        <div>
+        <label for = "ln">Last Name</label>
+        <input type = "text" name = "ln" value = "Vinz" />
+        </div>
+
+        <div>
+        <label for = "pwd">Password</label>
+        <input type = "password" name = "pwd" value = "jjbchgvcg"/>
+        </div>
+
+        <div>
+        <label for = "repwd">Re Password</label>
+        <input type = "password" name = "repwd" value = "nebbernrh"/>
+        </div>
+
+        <div>
+        <label for = "add">Address</label>
+        <input type = "text" name = "add" value = "Cebu, Philippines"/>
+        </div>
+
+        <div>
+        <label for = "age">Age</label>
+        <input type = "number" name = "age" value = "22"/>
+        </div>
+
+        <div>
+        <label for = "gender">Gender</label>
+        <select name = "Gender" id = "gender">
+            <option>Select your gender</option>
+            <option>Male</option>
+            <option>Female</option>
+        </select>
+        </div>
+
+        <div>
+        <input type = "submit" value = "Save"/> 
+        </div>
+
+    </form>
+</body>
+</html>
